@@ -1,0 +1,242 @@
+[
+  {
+    "category": "bottle",
+    "method": "autoencoder",
+    "path": "bottle/test/good/000.png",
+    "python": 0.021757829934358597,
+    "onnx": 0.021757829934358597,
+    "absolute_error": 0.0
+  },
+  {
+    "category": "bottle",
+    "method": "autoencoder",
+    "path": "bottle/test/good/006.png",
+    "python": 0.037565071135759354,
+    "onnx": 0.037565071135759354,
+    "absolute_error": 0.0
+  },
+  {
+    "category": "bottle",
+    "method": "autoencoder",
+    "path": "bottle/test/broken_large/000.png",
+    "python": 0.028872529044747353,
+    "onnx": 0.028872529044747353,
+    "absolute_error": 0.0
+  },
+  {
+    "category": "bottle",
+    "method": "patchcore_lite_128",
+    "path": "bottle/test/good/000.png",
+    "python": 1.8794746398925781,
+    "onnx": 1.8794739246368408,
+    "absolute_error": 7.152557373046875e-07
+  },
+  {
+    "category": "bottle",
+    "method": "patchcore_lite_128",
+    "path": "bottle/test/good/006.png",
+    "python": 1.9345228672027588,
+    "onnx": 1.934523344039917,
+    "absolute_error": 4.76837158203125e-07
+  },
+  {
+    "category": "bottle",
+    "method": "patchcore_lite_128",
+    "path": "bottle/test/broken_large/000.png",
+    "python": 3.4163079261779785,
+    "onnx": 3.4163074493408203,
+    "absolute_error": 4.76837158203125e-07
+  },
+  {
+    "category": "bottle",
+    "method": "patchcore_lite_512",
+    "path": "bottle/test/good/000.png",
+    "python": 1.3025156259536743,
+    "onnx": 1.302513599395752,
+    "absolute_error": 2.0265579223632812e-06
+  },
+  {
+    "category": "bottle",
+    "method": "patchcore_lite_512",
+    "path": "bottle/test/good/006.png",
+    "python": 1.8308720588684082,
+    "onnx": 1.8308730125427246,
+    "absolute_error": 9.5367431640625e-07
+  },
+  {
+    "category": "bottle",
+    "method": "patchcore_lite_512",
+    "path": "bottle/test/broken_large/000.png",
+    "python": 3.2419302463531494,
+    "onnx": 3.2419307231903076,
+    "absolute_error": 4.76837158203125e-07
+  },
+  {
+    "category": "tile",
+    "method": "autoencoder",
+    "path": "tile/test/good/000.png",
+    "python": 0.009425109252333641,
+    "onnx": 0.009425109252333641,
+    "absolute_error": 0.0
+  },
+  {
+    "category": "tile",
+    "method": "autoencoder",
+    "path": "tile/test/good/017.png",
+    "python": 0.009287445805966854,
+    "onnx": 0.009287445805966854,
+    "absolute_error": 0.0
+  },
+  {
+    "category": "tile",
+    "method": "autoencoder",
+    "path": "tile/test/crack/000.png",
+    "python": 0.022174770012497902,
+    "onnx": 0.022174768149852753,
+    "absolute_error": 1.862645149230957e-09
+  },
+  {
+    "category": "tile",
+    "method": "patchcore_lite_128",
+    "path": "tile/test/good/000.png",
+    "python": 1.6827408075332642,
+    "onnx": 1.682741403579712,
+    "absolute_error": 5.960464477539062e-07
+  },
+  {
+    "category": "tile",
+    "method": "patchcore_lite_128",
+    "path": "tile/test/good/017.png",
+    "python": 1.8163692951202393,
+    "onnx": 1.8163694143295288,
+    "absolute_error": 1.1920928955078125e-07
+  },
+  {
+    "category": "tile",
+    "method": "patchcore_lite_128",
+    "path": "tile/test/crack/000.png",
+    "python": 3.1490418910980225,
+    "onnx": 3.1490414142608643,
+    "absolute_error": 4.76837158203125e-07
+  },
+  {
+    "category": "tile",
+    "method": "patchcore_lite_512",
+    "path": "tile/test/good/000.png",
+    "python": 1.5443994998931885,
+    "onnx": 1.544399380683899,
+    "absolute_error": 1.1920928955078125e-07
+  },
+  {
+    "category": "tile",
+    "method": "patchcore_lite_512",
+    "path": "tile/test/good/017.png",
+    "python": 1.8120310306549072,
+    "onnx": 1.8120310306549072,
+    "absolute_error": 0.0
+  },
+  {
+    "category": "tile",
+    "method": "patchcore_lite_512",
+    "path": "tile/test/crack/000.png",
+    "python": 2.953261137008667,
+    "onnx": 2.953261613845825,
+    "absolute_error": 4.76837158203125e-07
+  },
+  {
+    "category": "metal_nut",
+    "method": "autoencoder",
+    "path": "metal_nut/test/good/000.png",
+    "python": 0.023360835388302803,
+    "onnx": 0.023360837250947952,
+    "absolute_error": 1.862645149230957e-09
+  },
+  {
+    "category": "metal_nut",
+    "method": "autoencoder",
+    "path": "metal_nut/test/good/007.png",
+    "python": 0.02674863301217556,
+    "onnx": 0.02674863301217556,
+    "absolute_error": 0.0
+  },
+  {
+    "category": "metal_nut",
+    "method": "autoencoder",
+    "path": "metal_nut/test/bent/000.png",
+    "python": 0.02197367697954178,
+    "onnx": 0.021973682567477226,
+    "absolute_error": 5.587935447692871e-09
+  },
+  {
+    "category": "metal_nut",
+    "method": "autoencoder",
+    "path": "metal_nut/test/bent/007.png",
+    "python": 0.018106114119291306,
+    "onnx": 0.018106110394001007,
+    "absolute_error": 3.725290298461914e-09
+  },
+  {
+    "category": "metal_nut",
+    "method": "patchcore_lite_128",
+    "path": "metal_nut/test/good/000.png",
+    "python": 2.490241765975952,
+    "onnx": 2.490241289138794,
+    "absolute_error": 4.76837158203125e-07
+  },
+  {
+    "category": "metal_nut",
+    "method": "patchcore_lite_128",
+    "path": "metal_nut/test/good/007.png",
+    "python": 2.635730504989624,
+    "onnx": 2.6357312202453613,
+    "absolute_error": 7.152557373046875e-07
+  },
+  {
+    "category": "metal_nut",
+    "method": "patchcore_lite_128",
+    "path": "metal_nut/test/bent/000.png",
+    "python": 3.190322160720825,
+    "onnx": 3.190321683883667,
+    "absolute_error": 4.76837158203125e-07
+  },
+  {
+    "category": "metal_nut",
+    "method": "patchcore_lite_128",
+    "path": "metal_nut/test/bent/007.png",
+    "python": 2.529265880584717,
+    "onnx": 2.529265880584717,
+    "absolute_error": 0.0
+  },
+  {
+    "category": "metal_nut",
+    "method": "patchcore_lite_512",
+    "path": "metal_nut/test/good/000.png",
+    "python": 1.9977784156799316,
+    "onnx": 1.997779130935669,
+    "absolute_error": 7.152557373046875e-07
+  },
+  {
+    "category": "metal_nut",
+    "method": "patchcore_lite_512",
+    "path": "metal_nut/test/good/007.png",
+    "python": 2.3539273738861084,
+    "onnx": 2.35392689704895,
+    "absolute_error": 4.76837158203125e-07
+  },
+  {
+    "category": "metal_nut",
+    "method": "patchcore_lite_512",
+    "path": "metal_nut/test/bent/000.png",
+    "python": 2.845391035079956,
+    "onnx": 2.845390796661377,
+    "absolute_error": 2.384185791015625e-07
+  },
+  {
+    "category": "metal_nut",
+    "method": "patchcore_lite_512",
+    "path": "metal_nut/test/bent/007.png",
+    "python": 2.0586297512054443,
+    "onnx": 2.0586299896240234,
+    "absolute_error": 2.384185791015625e-07
+  }
+]

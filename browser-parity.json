@@ -1,0 +1,76 @@
+{
+  "models": [
+    {
+      "category": "bottle",
+      "method": "patchcore_lite_512",
+      "expected": 1.3025156259536743,
+      "actual": 1.3025100231170654,
+      "error": 0.000005602836608886719
+    },
+    {
+      "category": "bottle",
+      "method": "patchcore_lite_128",
+      "expected": 1.8794745206832886,
+      "actual": 1.8794745206832886,
+      "error": 0
+    },
+    {
+      "category": "bottle",
+      "method": "autoencoder",
+      "expected": 0.021757829934358597,
+      "actual": 0.021757829516781898,
+      "error": 4.175766989134022e-10
+    },
+    {
+      "category": "tile",
+      "method": "patchcore_lite_512",
+      "expected": 1.5443997383117676,
+      "actual": 1.5443991422653198,
+      "error": 5.960464477539062e-7
+    },
+    {
+      "category": "tile",
+      "method": "patchcore_lite_128",
+      "expected": 1.6827411651611328,
+      "actual": 1.6827391386032104,
+      "error": 0.0000020265579223632812
+    },
+    {
+      "category": "tile",
+      "method": "autoencoder",
+      "expected": 0.009425109252333641,
+      "actual": 0.0094251086727878,
+      "error": 5.795458418722532e-10
+    },
+    {
+      "category": "metal_nut",
+      "method": "patchcore_lite_512",
+      "expected": 1.9977786540985107,
+      "actual": 1.9977771043777466,
+      "error": 0.0000015497207641601562
+    },
+    {
+      "category": "metal_nut",
+      "method": "patchcore_lite_128",
+      "expected": 2.490241765975952,
+      "actual": 2.4902398586273193,
+      "error": 0.0000019073486328125
+    },
+    {
+      "category": "metal_nut",
+      "method": "autoencoder",
+      "expected": 0.023360835388302803,
+      "actual": 0.02336083962480821,
+      "error": 4.2365054069015695e-9
+    }
+  ],
+  "uploadedOriginal": {
+    "category": "metal_nut",
+    "method": "patchcore_lite_512",
+    "score": 1.9977771043777466,
+    "threshold": 2.186811923980713,
+    "abnormal": false,
+    "elapsed": 132.8999999910593,
+    "error": 0.0000015497207641601562
+  }
+}
